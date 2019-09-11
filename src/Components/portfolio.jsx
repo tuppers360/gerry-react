@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Portfolio = () => (
-  <div>
+  <div className="container">
     <h1>Portfolio</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores

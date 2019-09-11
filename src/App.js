@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 import "./App.css";
-import NavBar from "./Components/navBar";
+import NavBar from "./components/navBar";
 import { Route, Switch } from "react-router-dom";
-import { Home } from "./Components/home";
-import { About } from "./Components/about";
-import { Contact } from "./Components/contact";
-import { Portfolio } from "./Components/portfolio";
-import { NoMatch } from "./Components/noMatch";
+import { Home } from "./components/home";
+import { About } from "./components/about";
+import { Contact } from "./components/contact";
+import { Portfolio } from "./components/portfolio";
+import { NoMatch } from "./components/noMatch";
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <NavBar />
-        <main className="container">
+        <main>
           <Switch>
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
