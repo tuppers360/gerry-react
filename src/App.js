@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./App.css";
 import NavBar from "./components/navBar";
 import { Route, Switch } from "react-router-dom";
 import { Home } from "./components/home";
@@ -7,6 +6,7 @@ import { About } from "./components/about";
 import { Contact } from "./components/contact";
 import { Portfolio } from "./components/portfolio";
 import { NoMatch } from "./components/noMatch";
+import "./App.css";
 
 class App extends Component {
   render() {
