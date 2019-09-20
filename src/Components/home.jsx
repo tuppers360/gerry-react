@@ -21,7 +21,7 @@ export const Home = () => (
       </a>
     </div>
     {/* Start Mission Section */}
-    <div id="mission" className="narrow offset">
+    <div id="mission" className="offset">
       {/* Start Top Section */}
       <div className="narrow text-center">
         <div className="col-12">
@@ -43,7 +43,12 @@ export const Home = () => (
       {/* End Animation Section */}
       {/* Start Jumbotron Section */}
       <div className="jumbotron">
-        <div className="narrow"></div> {/* End Narrow */}
+        <div className="narrow">
+          <div className="os-animation" data-animation="fadeInUp">
+            <h3 className="heading">Powered By</h3>
+          </div>
+        </div>{" "}
+        {/* End Narrow */}
       </div>
       {/* End Jumbotron Section */}
     </div>
