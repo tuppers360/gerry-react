@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          Navbar
+          GRT
         </Link>
         <button
           className="navbar-toggler"
@@ -22,7 +22,7 @@ const NavBar = () => {
           </span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ml-auto">
+          <ul className="navbar-nav mx-auto">
             <li className="nav-item active">
               <NavLink className="nav-link" to="/">
                 Home<span className="sr-only">(current)</span>
@@ -44,6 +44,9 @@ const NavBar = () => {
               </NavLink>
             </li>
           </ul>
+          <Link className="btn btn-lg btn-danger" to="#mission">
+            Donate
+          </Link>
         </div>
       </div>
     </nav>
