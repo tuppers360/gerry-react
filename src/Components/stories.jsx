@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Portfolio = () => (
+export const Stories = () => (
   <div className="container">
     <h1>Portfolio</h1>
     <p>

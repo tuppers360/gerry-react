@@ -29,8 +29,8 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/portfolio">
-                Portfolio
+              <NavLink className="nav-link" to="/stories">
+                Stories
               </NavLink>
             </li>
             <li className="nav-item">
@@ -44,7 +44,7 @@ const NavBar = () => {
               </NavLink>
             </li>
           </ul>
-          <Link className="btn btn-lg btn-danger" to="#mission">
+          <Link className="btn btn-lg btn-danger" to="/#mission">
             Donate
           </Link>
         </div>
