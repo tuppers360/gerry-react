@@ -20,30 +20,23 @@ export const Home = () => (
         data-animation="bounceInUp"
         data-delay=".6s"
       >
-        <h1>Gerry Richardson</h1>
+        <h1>The Gerry Richardson Trust</h1>
       </div>
-
-      <div
-        className="os-animation"
-        data-animation="bounceInUp"
-        data-delay=".8s"
-      >
-        <h1>Trust</h1>
-      </div>
-
       <div className="os-animation" data-animation="bounceInUp" data-delay="1s">
-        <Link className="btn btn-lg btn-primary" to="#aboutus">
-          About Us
-        </Link>
-        <Link className="btn btn-lg btn-danger" to="#contact">
+        <a className="btn btn-lg btn-primary" href="#mission">
+          Our Mission
+        </a>
+        <Link className="btn btn-lg btn-danger" to="#mission">
           Donate
         </Link>
       </div>
     </div>
-    <div id="mission" className="container offset">
+    {/* Start Mission Section */}
+    <div id="mission" className="narrow offset">
+      {/* Start Animation Section */}
       <div className="os-animation" data-animation="fadeInUp">
-        <div className="text-center">
-          <div class="col-12">
+        <div className="narrow text-center">
+          <div className="col-12">
             <h1>Our Mission</h1>
             <p className="lead">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -60,7 +53,50 @@ export const Home = () => (
           </div>
         </div>
       </div>
+      {/* End Animation Section */}
+      {/* Start Jumbotron Section */}
+      <div className="jumbotron">
+        <div className="narrow"></div> {/* End Narrow */}
+      </div>
+      {/* End Jumbotron Section */}
     </div>
+    {/* End Mission Section */}
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <br />
     <br />
     <br />

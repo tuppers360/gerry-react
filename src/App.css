@@ -5,8 +5,19 @@ body {
   font-family: "Lato", sans-serif;
   color: #505962;
 }
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+  height: 6rem;
+  margin-top: -4rem;
+  content: "";
+  display: block;
+}
 
-/* Navigation */
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+/*====================== Navigation ======================*/
 
 .navbar {
   text-transform: uppercase;
@@ -42,7 +53,7 @@ body {
   margin-top: 4rem;
 }
 
-/* Landing Page */
+/*====================== Landing Section ======================*/
 
 .home-inner img {
   background-size: cover;
@@ -69,6 +80,23 @@ body {
   font-weight: 400;
   text-shadow: 0.1rem 0.1rem 0.8rem black;
   padding-bottom: 2rem;
+}
+
+/*====================== Mission Section ======================*/
+
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.btn-sm {
+  border-width: medium;
+  /* border-radius: 0; comment out this for now */
+  padding: 0.5rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 1rem;
 }
 
 /* .jumbotron {
