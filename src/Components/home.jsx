@@ -32,13 +32,10 @@ export const Home = () => (
       </div>
 
       <div className="os-animation" data-animation="bounceInUp" data-delay="1s">
-        <Link className="btn btn-outline-light btn-lg" href="#aboutus">
+        <Link className="btn btn-outline-light btn-lg" to="#aboutus">
           About Us
         </Link>
-        <Link
-          className="btn btn-outline-light btn-lg btn-danger"
-          href="#contact"
-        >
+        <Link className="btn btn-outline-light btn-lg btn-danger" to="#contact">
           Donate
         </Link>
       </div>
