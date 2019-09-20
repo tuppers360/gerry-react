@@ -15,42 +15,32 @@ export const Home = () => (
       </div>
     </div>
     <div className="caption text-center">
-      <div
-        className="os-animation"
-        data-animation="bounceInUp"
-        data-delay=".6s"
-      >
-        <h1>The Gerry Richardson Trust</h1>
-      </div>
-      <div className="os-animation" data-animation="bounceInUp" data-delay="1s">
-        <a className="btn btn-lg btn-primary" href="#mission">
-          Our Mission
-        </a>
-        <Link className="btn btn-lg btn-danger" to="#mission">
-          Donate
-        </Link>
-      </div>
+      <h1>The Gerry Richardson Trust</h1>
+      <a className="btn btn-lg btn-primary" href="#mission">
+        Our Mission
+      </a>
+      <Link className="btn btn-lg btn-danger" to="#mission">
+        Donate
+      </Link>
     </div>
     {/* Start Mission Section */}
     <div id="mission" className="narrow offset">
-      {/* Start Animation Section */}
-      <div className="os-animation" data-animation="fadeInUp">
-        <div className="narrow text-center">
-          <div className="col-12">
-            <h1>Our Mission</h1>
-            <p className="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate, eveniet rerum. Aperiam, debitis tenetur! Eum adipisci,
-              saepe, deserunt quod soluta dolores aliquid labore optio dolorum
-              unde assumenda in odio eligendi?
-            </p>
-            <a href="/contact" className="btn btn-secondary btn-sm">
-              Contact
-            </a>
-            <a href="/portfolio" className="btn btn-info btn-sm">
-              Portfolio
-            </a>
-          </div>
+      {/* Start Top Section */}
+      <div className="narrow text-center">
+        <div className="col-12">
+          <h1>Our Mission</h1>
+          <p className="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+            eveniet rerum. Aperiam, debitis tenetur! Eum adipisci, saepe,
+            deserunt quod soluta dolores aliquid labore optio dolorum unde
+            assumenda in odio eligendi?
+          </p>
+          <Link to="/contact" className="btn btn-secondary btn-sm">
+            Contact
+          </Link>
+          <Link to="/portfolio" className="btn btn-info btn-sm">
+            Portfolio
+          </Link>
         </div>
       </div>
       {/* End Animation Section */}
