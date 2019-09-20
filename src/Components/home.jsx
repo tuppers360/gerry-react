@@ -7,7 +7,7 @@ export const Home = () => (
       <div className="home-wrap">
         <div className="home-inner">
           <img
-            src="/images/beachimage_resize.jpg"
+            src="/images/beachimage_resize_darker.png"
             className="home-inner-img"
             alt=""
           />
@@ -19,9 +19,6 @@ export const Home = () => (
       <a className="btn btn-lg btn-primary" href="#mission">
         Our Mission
       </a>
-      <Link className="btn btn-lg btn-danger" to="#mission">
-        Donate
-      </Link>
     </div>
     {/* Start Mission Section */}
     <div id="mission" className="narrow offset">
