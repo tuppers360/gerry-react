@@ -7,7 +7,7 @@ export const Home = () => (
       <div className="home-wrap">
         <div className="home-inner">
           <img
-            src="/images/beachimage_resize_darker.png"
+            src="/images/blackpool_tower_darker_resize.png"
             className="home-inner-img"
             alt=""
           />
@@ -42,12 +42,14 @@ export const Home = () => (
       </div>
       {/* End Animation Section */}
       {/* Start Jumbotron Section */}
-      <div className="jumbotron">
+      <div className="">
         <div className="narrow">
           <div className="os-animation" data-animation="fadeInUp">
             <h3 className="heading">Powered By</h3>
+            <div className="heading-underline"></div>
+            <h5>Coming Soon</h5>
           </div>
-        </div>{" "}
+        </div>
         {/* End Narrow */}
       </div>
       {/* End Jumbotron Section */}
