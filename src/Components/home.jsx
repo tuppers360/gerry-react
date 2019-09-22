@@ -15,7 +15,8 @@ export const Home = () => (
       </div>
     </div>
     <div className="caption text-center">
-      <h1>The Gerry Richardson Trust</h1>
+      <h1>Welcome to the</h1>
+      <h1>Gerry Richardson Trust</h1>
       <a className="btn btn-lg btn-primary" href="#mission">
         Our Mission
       </a>
@@ -27,16 +28,18 @@ export const Home = () => (
         <div className="col-12">
           <h1>Our Mission</h1>
           <p className="lead">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
-            eveniet rerum. Aperiam, debitis tenetur! Eum adipisci, saepe,
-            deserunt quod soluta dolores aliquid labore optio dolorum unde
-            assumenda in odio eligendi?
+            The trust seeks to promote youth development by supporting young
+            people, aged 25 or under, to attend courses and activities of an
+            educational, cultural, sporting, adventuresome or character-building
+            nature. It is willing to entertain written applications for
+            financial assistance from young people living or working within 15
+            miles of the town hall in Blackpool, Lancashire.
           </p>
           <Link to="/contact" className="btn btn-secondary btn-sm">
             Contact
           </Link>
-          <Link to="/portfolio" className="btn btn-info btn-sm">
-            Portfolio
+          <Link to="/stories" className="btn btn-info btn-sm">
+            Who are we
           </Link>
         </div>
       </div>
@@ -45,7 +48,7 @@ export const Home = () => (
       <div className="">
         <div className="narrow">
           <div className="os-animation" data-animation="fadeInUp">
-            <h3 className="heading">Powered By</h3>
+            <h3 className="heading">What's Going On</h3>
             <div className="heading-underline"></div>
             <h5>Coming Soon</h5>
           </div>
@@ -55,60 +58,22 @@ export const Home = () => (
       {/* End Jumbotron Section */}
     </div>
     {/* End Mission Section */}
-    <br />
-    <br /> <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br /> <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    {/* Start Portfolio grid */}
+    <div className="row justify-content-center">
+      <div className="os-animation" data-animation="fadeInUp">
+        <div className="narrow text-center">
+          <div className="col-12">
+            <p className="lead">
+              what you're going to do with love this icon now you've found it?
+              Check out our guide on getting started.
+            </p>
+            <a className="btn btn-secondary btn-sm" href="contact.html">
+              Get In Touch
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* End of Portfolio Section */}
   </React.Fragment>
 );
