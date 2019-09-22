@@ -117,13 +117,24 @@ h3.heading {
   margin: 0 auto 2rem;
 }
 
-/*============= CONTACT SECTION =============*/
+/*============= THANKYOU SECTION =============*/
+thankyou .card-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+thankyou .card-subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+}
+/*============= FOOTER SECTION =============*/
 
 footer {
   background-color: #062d44;
   color: #fff;
   padding-bottom: 2rem;
   font-size: 1.1rem;
+  margin-top: 1rem;
 }
 footer img {
   height: 1.5rem;

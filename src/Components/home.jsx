@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ThankYou } from "./home/thankyou";
 
 export const Home = () => (
   <React.Fragment>
@@ -38,7 +39,7 @@ export const Home = () => (
           <Link to="/contact" className="btn btn-secondary btn-sm">
             Contact
           </Link>
-          <Link to="/stories" className="btn btn-info btn-sm">
+          <Link to="/about" className="btn btn-info btn-sm">
             Who are we
           </Link>
         </div>
@@ -67,13 +68,14 @@ export const Home = () => (
               what you're going to do with love this icon now you've found it?
               Check out our guide on getting started.
             </p>
-            <a className="btn btn-secondary btn-sm" href="contact.html">
+            <Link className="btn btn-secondary btn-sm" to="/contact">
               Get In Touch
-            </a>
+            </Link>
           </div>
         </div>
       </div>
     </div>
     {/* End of Portfolio Section */}
+    <ThankYou />
   </React.Fragment>
 );
