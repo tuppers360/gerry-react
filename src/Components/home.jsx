@@ -16,8 +16,9 @@ export const Home = () => (
       </div>
     </div>
     <div className="caption text-center">
-      <h1>Welcome to the</h1>
-      <h1>Gerry Richardson Trust</h1>
+      <h1>The</h1>
+      <h1>Gerry Richardson</h1>
+      <h1>Trust</h1>
       <a className="btn btn-lg btn-primary" href="#mission">
         Our Mission
       </a>
@@ -46,10 +47,10 @@ export const Home = () => (
       </div>
       {/* End Animation Section */}
       {/* Start Jumbotron Section */}
-      <div className="">
+      <div className="jumbotron">
         <div className="narrow">
           <div className="os-animation" data-animation="fadeInUp">
-            <h3 className="heading">What's Going On</h3>
+            <h3 className="heading">Stories</h3>
             <div className="heading-underline"></div>
             <h5>Coming Soon</h5>
           </div>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Footer = () => (
   <React.Fragment>
     {/* Start Footer Section */}
-    <div id="contact" className="offset">
+    <div id="contact">
       <footer>
         <div className="narrow">
           <div className="row">
@@ -14,17 +14,12 @@ export const Footer = () => (
                   <img src="/images/nuno.png" alt="Logo" />
                   <p className="card-text">
                     <strong>Gerry Richardson Trust</strong>
-                    <br />
-                    Northdene,
-                    <br />
-                    Stoney Lane,
-                    <br />
-                    Hambleton,
-                    <br />
-                    Poulton-Le-Fylde,
-                    <br />
-                    FY6 9AF
                   </p>
+                  <p>Northdene,</p>
+                  <p>Stoney Lane,</p>
+                  <p>Hambleton,</p>
+                  <p>Poulton-Le-Fylde,</p>
+                  <p>FY6 9AF</p>
                 </div>
               </div>
             </div>
