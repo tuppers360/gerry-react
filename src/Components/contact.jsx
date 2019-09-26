@@ -11,7 +11,7 @@ export const Contact = () => (
       <div class="row">
         <div class="col-md-8">
           <div class="card">
-            <div class="card-header bg-primary text-white">
+            <div class="card-header text-white contact-card-header">
               <i class="fa fa-envelope"></i> Contact us.
             </div>
             <div class="card-body">
@@ -61,7 +61,7 @@ export const Contact = () => (
         </div>
         <div class="col-md-4 col-sm-4">
           <div class="card bg-light mb-3">
-            <div class="card-header bg-success text-white text-uppercase">
+            <div class="card-header text-white text-uppercase contact-card-header">
               <i class="fa fa-home"></i> Address
             </div>
             <div class="card-body">

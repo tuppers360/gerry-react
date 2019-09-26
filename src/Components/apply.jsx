@@ -1,10 +1,10 @@
 import React from "react";
 
-export const Stories = () => (
+export const Apply = () => (
   <React.Fragment>
-    <section class="jumbotron header-jumbotron">
+    <section id="top" class="jumbotron header-jumbotron">
       <div class="narrow">
-        <h1 class="jumbotron-heading">Stories</h1>
+        <h1 class="jumbotron-heading">Apply</h1>
       </div>
     </section>
     <div className="narrow">

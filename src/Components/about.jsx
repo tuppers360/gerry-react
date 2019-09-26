@@ -2,7 +2,7 @@ import React from "react";
 
 export const About = () => (
   <React.Fragment>
-    <section class="jumbotron">
+    <section class="jumbotron header-jumbotron">
       <div class="narrow">
         <h1 class="jumbotron-heading">About Us</h1>
       </div>

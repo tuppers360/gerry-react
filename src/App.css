@@ -98,10 +98,10 @@ body {
   margin: 1rem;
 }
 .jumbotron {
-  margin-top: 4rem;
+  margin-top: 3rem;
   margin-bottom: 0;
   border-radius: 0;
-  padding: 1rem 0 3rem;
+  padding: 0.5rem 0 1rem;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -124,7 +124,10 @@ h3.heading {
 }
 
 /* ============ CONTACT SECTIO ===============*/
-
+.contact-card-header {
+  background-color: #0091cd;
+  border: none;
+}
 /*============= THANKYOU SECTION =============*/
 thankyou .card-title {
   font-size: 1rem;
