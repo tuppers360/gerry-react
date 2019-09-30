@@ -46,20 +46,50 @@ export const Home = () => (
         </div>
       </div>
       {/* End Animation Section */}
-      {/* Start Jumbotron Section */}
-      <div className="jumbotron">
-        <div className="narrow">
-          <div className="os-animation" data-animation="fadeInUp">
-            <h3 className="heading">Stories</h3>
-            <div className="heading-underline"></div>
-            <h5>Coming Soon</h5>
-          </div>
-        </div>
-        {/* End Narrow */}
-      </div>
-      {/* End Jumbotron Section */}
     </div>
     {/* End Mission Section */}
+    {/* Start Jumbotron Section */}
+    <section className="homeStories">
+      <div className="card-group">
+        <div className="card">
+          <img
+            className="card-img-top"
+            src="/images/nepal.jpg"
+            alt="Flex Card 1"
+          />
+          <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
+            <h1 className="text-center">Hollies Story</h1>
+            <p className="card-text text-right">
+              <Link
+                to="/stories/hollies-story"
+                className="btn btn-lg btn-primary"
+              >
+                <i className="fab fa-readme"></i> Read
+              </Link>
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <img
+            className="card-img-top"
+            src="/images/stories.jpg"
+            alt="Flex Card 1"
+          />
+          <div className="card-img-overlay text-white d-flex flex-column text-center justify-content-center">
+            <h4 className="card-title text-warning">Our Goal</h4>
+            <h1 className="card-subtitle mb-2">
+              To help children all accross the Fylde
+            </h1>
+            <p className="card-text">
+              <Link to="/stories" className="btn btn-lg btn-primary">
+                <i className="fab fa-readme"></i> More Stories
+              </Link>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    {/* End Jumbotron Section */}
     {/* Start Portfolio grid */}
     <div className="row justify-content-center">
       <div className="os-animation" data-animation="fadeInUp">

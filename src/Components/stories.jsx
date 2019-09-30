@@ -2,9 +2,9 @@ import React from "react";
 
 export const Stories = () => (
   <React.Fragment>
-    <section class="jumbotron header-jumbotron">
-      <div class="narrow">
-        <h1 class="jumbotron-heading">Stories</h1>
+    <section className="jumbotron header-jumbotron">
+      <div className="narrow">
+        <h1 className="jumbotron-heading">Stories</h1>
       </div>
     </section>
     <div className="narrow">

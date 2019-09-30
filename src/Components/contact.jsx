@@ -2,56 +2,56 @@ import React from "react";
 
 export const Contact = () => (
   <React.Fragment>
-    <section class="jumbotron header-jumbotron">
-      <div class="narrow">
-        <h1 class="jumbotron-heading">Contact Us</h1>
+    <section className="jumbotron header-jumbotron">
+      <div className="narrow">
+        <h1 className="jumbotron-heading">Contact Us</h1>
       </div>
     </section>
-    <div class="narrow">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="card">
-            <div class="card-header text-white contact-card-header">
-              <i class="fa fa-envelope"></i> Contact us.
+    <div className="narrow">
+      <div className="row">
+        <div className="col-md-8">
+          <div className="card">
+            <div className="card-header text-white text-uppercase contact-card-header">
+              <i className="fa fa-envelope"></i> Send us a message
             </div>
-            <div class="card-body">
+            <div className="card-body">
               <form>
-                <div class="form-group">
-                  <label for="name">Name</label>
+                <div className="form-group">
+                  <label htmlFor="name">Name</label>
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="name"
                     aria-describedby="emailHelp"
                     placeholder="Enter name"
                     required
                   />
                 </div>
-                <div class="form-group">
-                  <label for="email">Email address</label>
+                <div className="form-group">
+                  <label htmlFor="email">Email address</label>
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="email"
                     aria-describedby="emailHelp"
                     placeholder="Enter email"
                     required
                   />
-                  <small id="emailHelp" class="form-text text-muted">
+                  <small id="emailHelp" className="form-text text-muted">
                     We'll never share your email with anyone else.
                   </small>
                 </div>
-                <div class="form-group">
-                  <label for="message">Message</label>
+                <div className="form-group">
+                  <label htmlFor="message">Message</label>
                   <textarea
-                    class="form-control"
+                    className="form-control"
                     id="message"
                     rows="6"
                     required
                   ></textarea>
                 </div>
-                <div class="mx-auto">
-                  <button type="submit" class="btn btn-primary text-right">
+                <div className="mx-auto">
+                  <button type="submit" className="btn btn-primary text-right">
                     Submit
                   </button>
                 </div>
@@ -59,20 +59,30 @@ export const Contact = () => (
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-4">
-          <div class="card bg-light mb-3">
-            <div class="card-header text-white text-uppercase contact-card-header">
-              <i class="fa fa-home"></i> Address
+        <div className="col-md-4 col-sm-4">
+          <div className="card bg-light mb-3">
+            <div className="card-header text-white text-uppercase contact-card-header">
+              <i className="fa fa-home"></i> Get in touch
             </div>
-            <div class="card-body">
-              <p className="card-text">
-                <strong>Gerry Richardson Trust</strong>
+            <div className="card-body card-text">
+              <p>
+                We’re very approachable and would love to speak to you. Feel
+                free to call, send us an email, Tweet us or simply complete the
+                enquiry form.
               </p>
-              <p>Northdene,</p>
-              <p>Stoney Lane,</p>
-              <p>Hambleton,</p>
-              <p>Poulton-Le-Fylde,</p>
-              <p>FY6 9AF</p>
+              <p>
+                <strong>Gerry Richardson Trust</strong>
+                <br />
+                Northdene,
+                <br />
+                Stoney Lane,
+                <br />
+                Hambleton,
+                <br />
+                Poulton-Le-Fylde,
+                <br />
+                FY6 9AF
+              </p>
             </div>
           </div>
         </div>

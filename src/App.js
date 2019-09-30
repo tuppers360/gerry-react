@@ -7,6 +7,7 @@ import { Apply } from "./components/apply";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 import { Stories } from "./components/stories";
+import { HolliesStory } from "./components/stories/holliesStory";
 import { NoMatch } from "./components/noMatch";
 import "./App.css";
 
@@ -17,6 +18,7 @@ class App extends Component {
         <NavBar />
         <main>
           <Switch>
+            <Route path="/stories/hollies-story" component={HolliesStory} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/stories" component={Stories} />

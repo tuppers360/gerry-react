@@ -123,20 +123,31 @@ h3.heading {
   margin: 0 auto 2rem;
 }
 
-/* ============ CONTACT SECTIO ===============*/
+/* ============ CONTACT SECTION ===============*/
 .contact-card-header {
   background-color: #0091cd;
   border: none;
 }
+/* ============ HOME STORIES SECTION ===============*/
+.homeStories .card {
+  margin-top: -1rem;
+  border: none;
+}
+.homeStories img {
+  filter: brightness(50%);
+}
 /*============= THANKYOU SECTION =============*/
-thankyou .card-title {
+.thankyou .card-title {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
 }
-thankyou .card-subtitle {
+.thankyou .card-subtitle {
   font-size: 2rem;
   font-weight: 700;
+}
+.thankyou img {
+  filter: brightness(50%);
 }
 /*============= FOOTER SECTION =============*/
 

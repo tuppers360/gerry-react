@@ -1,12 +1,14 @@
 import React from "react";
+import { Team } from "./team";
 
 export const About = () => (
   <React.Fragment>
-    <section class="jumbotron header-jumbotron">
-      <div class="narrow">
-        <h1 class="jumbotron-heading">About Us</h1>
+    <section className="jumbotron header-jumbotron">
+      <div className="narrow">
+        <h1 className="jumbotron-heading">About Us</h1>
       </div>
     </section>
+    <Team />
     <div className="narrow">
       <p>
         On the 23rd August 1971 Superintendent Gerald Richardson was shot dead
