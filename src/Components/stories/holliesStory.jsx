@@ -41,10 +41,10 @@ export const HolliesStory = () => (
         chickens and goats to the Goddess Kali to appease her - the patience and
         dedication of the people at all these places was truly inspiring to us.
       </p>
-      <section>
+      <section className="hollie">
         <div className="row">
-          <div className="card-deck">
-            <div className="card">
+          <div className="card-group hollieStory">
+            <div className="card rounded-0">
               <img className="card-img" src="/images/hollie_1.jpg" alt="Card" />
               <div className="card-img-overlay"></div>
             </div>
@@ -59,7 +59,7 @@ export const HolliesStory = () => (
           </div>
         </div>
         <div className="row">
-          <div className="card-deck">
+          <div className="card-group hollieStory">
             <div className="card">
               <img className="card-img" src="/images/hollie_2.jpg" alt="Card" />
               <div className="card-img-overlay"></div>

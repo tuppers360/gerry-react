@@ -11,7 +11,6 @@ export const Footer = () => (
             <div className="col-sm-3">
               <div className="card h-100">
                 <div className="card-body">
-                  <img src="/images/nuno.png" alt="Logo" />
                   <p className="card-text">
                     <strong>Gerry Richardson Trust</strong>
                   </p>

@@ -90,23 +90,6 @@ export const Home = () => (
       </div>
     </section>
     {/* End Jumbotron Section */}
-    {/* Start Portfolio grid */}
-    <div className="row justify-content-center">
-      <div className="os-animation" data-animation="fadeInUp">
-        <div className="narrow text-center">
-          <div className="col-12">
-            <p className="lead">
-              what you're going to do with love this icon now you've found it?
-              Check out our guide on getting started.
-            </p>
-            <Link className="btn btn-secondary btn-sm" to="/contact">
-              Get In Touch
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
-    {/* End of Portfolio Section */}
     <ThankYou />
   </React.Fragment>
 );

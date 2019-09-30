@@ -84,7 +84,7 @@ body {
 /*====================== Mission Section ======================*/
 
 .narrow {
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
   padding-top: 2rem;
 }
@@ -129,12 +129,22 @@ h3.heading {
   border: none;
 }
 /* ============ HOME STORIES SECTION ===============*/
-.homeStories .card {
+.card-no-border .card {
   margin-top: -1rem;
   border: none;
 }
 .homeStories img {
   filter: brightness(50%);
+}
+/* ============ HOLLIE STORIES SECTION ===============*/
+.hollie {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.hollieStory .card {
+  margin-top: -1rem;
+  border: none;
+  border-radius: 0 !important;
 }
 /*============= THANKYOU SECTION =============*/
 .thankyou .card-title {
